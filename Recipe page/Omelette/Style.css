@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.description {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.preparation-time {
+  background-color: #ffe6e6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(215, 186, 186, 0.195);
+  margin: 20px 0;
+}
+.preparation-time h2 {
+  color: maroon;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.preparation-time ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+.preparation-time ul li strong {
+  color: black;
+}
+.preparation-time ul li .dot {
+  color: maroon;
+  margin-right: 8px;
+}
+.preparation-time ul li span {
+  color: black;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  padding: 0;
+}
+.ingredients-list li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+}
+.ingredients-list li .dot {
+  color: brown;
+  margin-right: 8px;
+}
+
+.instructions-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+  color: black;
+  line-height: 1.5;
+}
+.instructions-list li {
+  margin-bottom: 10px;
+  color: black;
+}
+.instructions-list li strong {
+  color: black;
+}
+.instructions-list li::marker {
+  color: brown;
+}
+
+.nutrition-info {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.nutrition {
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  color: brown;
+}
+.nutrition .nutrition-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: black;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+.nutrition .nutrition-item:last-child {
+  border-bottom: none;
+}
+.nutrition .nutrition-item .label {
+  color: black;
+}
+.nutrition .nutrition-item .value {
+  color: brown;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  opacity: 0.5;
+}
+
+h2 {
+  color: brown;
+}
+
+.ingredients-title,
+.instructions-title,
+.nutrition-title {
+  color: brown;
+  line-height: 2;
+}/*# sourceMappingURL=Style.css.map */
